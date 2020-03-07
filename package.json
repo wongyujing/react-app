@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ./webpack.config.js",
-    "dev": "webpack-dev-server --open chrome --compress --hot"
+    "dev": "webpack-dev-server --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",

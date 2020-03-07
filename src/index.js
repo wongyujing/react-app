@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDom from 'react-dom'
+import ReactDom from 'react-dom';
+import App from './App';
 
 // create by React element
 // const div = React.createElement(
@@ -11,6 +12,6 @@ import ReactDom from 'react-dom'
 // )
 
 // create by jsx
-const div = <button onClick={() => console.log()}>Hello</button>;
+// const div = <button onClick={() => console.log()}>Hello</button>;
 
-ReactDom.render(div, document.getElementById("app"));
+ReactDom.render(<App />, document.getElementById("app"));
